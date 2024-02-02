@@ -20,7 +20,7 @@ namespace Lab3App
             possibleCollectiable.Add(new Coin("Toony", score: 50, value: 100));
 
             // Five Diamonds with descriptions Diamond1, Diamond2, ... etc.
-            for (int i = 1;i <= 5; i++)
+            for (int i = 1;i <= 5; i++)    
             {
                 possibleCollectiable.Add(new Diamond("Diamond"+ i, score: 100));
             }
